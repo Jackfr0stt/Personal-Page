@@ -1,0 +1,21 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "test project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "reload": "browser-sync start --proxy 'http://localhost:your_port' --files 'public/*'",
+    "dev": "npm run start & npm run reload"
+  },
+  "author": "Pedro Ferreira",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "http": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.29.3"
+  }
+}
